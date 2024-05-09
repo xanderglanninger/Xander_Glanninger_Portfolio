@@ -1,0 +1,68 @@
+.navigationbar-container {
+  position: fixed;
+  width: 100vh;
+  z-index: 100;
+}
+
+.list-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.list-group-item {
+  list-style: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.8vh;
+}
+
+.list-group-item:hover {
+  color: blueviolet;
+  transition: 0.5s;
+  font-size: 2vh;
+  margin-top: 1vh;
+}
+
+.contact-me-btn-primary {
+  background-color: transparent;
+  color: white;
+  border-style: solid;
+  border-color: blueviolet;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  border-radius: 8px;
+  font-size: 2vh;
+  cursor: pointer;
+  width: 18vh;
+}
+
+.dw-cv-btn-primary {
+  background-color: blueviolet;
+  color: white;
+  border-style: solid;
+  border-color: blueviolet;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  border-radius: 8px;
+  font-size: 2vh;
+  cursor: pointer;
+  width: 18vh;
+}
+
+.contact-me-btn-primary:hover {
+  background-color: blueviolet;
+  transition: 0.5s;
+  border-color: white;
+}
+
+.dw-cv-btn-primary:hover {
+  background-color: transparent;
+  transition: 0.5s;
+  border-color: blueviolet;
+}

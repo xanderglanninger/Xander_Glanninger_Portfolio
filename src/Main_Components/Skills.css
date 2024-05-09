@@ -1,0 +1,51 @@
+.skills-message-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 4vh;
+  font-weight: 100;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: RGB(0, 5, 26);
+  cursor: pointer;
+}
+
+.down-arrow-img {
+  height: 5vh;
+  margin: 2vh;
+}
+
+.background-hover-animation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: rgb(52, 16, 85);
+  transform: translate(-50%, -50%) rotateX(60deg);
+  animation: hoverAnimation 10s infinite;
+  font-size: 30vh;
+  z-index: -1;
+  font-weight: 500;
+  text-align: center;
+}
+
+@keyframes hoverAnimation {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.05;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 0.075;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.1;
+  }
+}

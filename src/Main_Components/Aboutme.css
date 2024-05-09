@@ -1,0 +1,42 @@
+.aboutme-message-main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutme-message-main-header {
+  color: white;
+  font-size: 5vh;
+}
+
+.aboutme-main-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100vh;
+  align-items: center;
+}
+
+.aboutme-main-header {
+  color: blueviolet;
+  font-size: 8vh;
+}
+
+.aboutme-secondary-header {
+  color: white;
+  font-size: 4vh;
+}
+
+.hr-line {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  color: blueviolet;
+}
+
+.aboutme-paragraph {
+  color: white;
+  font-weight: lighter;
+  line-height: 2;
+  font-size: 1.5vh;
+}
